@@ -7,10 +7,10 @@ import csv
 #Chromedriver path
 driver = webdriver.Chrome(executable_path="/Users/ugooezekoma/Documents/chromedriver")
 driver.get('https://www.oddsportal.com/esports/europe/counter-strike-esl-pro-league-season-13/results/') #/page/2/
-time.sleep(1)
+#time.sleep(1)
 driver.find_element('xpath', '//*[@id="onetrust-accept-btn-handler"]').click()
 print("cookies checked out already")
-time.sleep(1)
+#time.sleep(1)
 for amen in range(3,45):
     try:
         driver.find_element('xpath', '//*[@id="tournamentTable"]/tbody/tr['+str(amen)+']/td[2]/a').is_enabled()
