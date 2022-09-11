@@ -1,5 +1,7 @@
 # Scraper for Counter strike odds from oddsportal
-[![IMAGE ALT TEXT HERE](https://drive.google.com/file/d/1te2tP1h0z3nM7I_IpYIo3ziPZWMGaRgr/view?usp=sharing)
+
+<img width="1440" alt="Screenshot 2022-09-11 at 22 57 08" src="https://user-images.githubusercontent.com/31643510/189548572-a8619a3a-abce-4e7d-a8e5-41c4fd4f5b04.png">
+
 ## How to install chrome driver:
 Download the chrome driver on your laptop. From your terminal, go to the location of the chrome driver and run this code to grant it permission to run on your computer. spctl --add --label 'Approved' chromedriver
 copy the path and paste it into line 10 as you replace my own path.
