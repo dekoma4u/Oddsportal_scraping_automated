@@ -4,9 +4,7 @@
 
 ## Installations:
 Download the chrome driver on your laptop. From your terminal, go to the location of the chrome driver and run this code to grant it permission to run on your computer.
-'''
-spctl --add --label 'Approved' chromedriver
-'''
+'''spctl --add --label 'Approved' chromedriver'''
 Copy the path and paste it into '''executable-path''' on line 8. Make sure to replace my own path with yours.
 
 ## Must do
