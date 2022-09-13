@@ -11,7 +11,7 @@ Copy the path and paste it into ``` executable-path ``` on line 8. Make sure to 
 Create two folders with name games and odds in the root directory. These are where the results of the scraping are stored in csv and txt formats, other wise, you might need to change the file location in lines 21, 29, and 71 respectively for both scraper.py and scraper2.py.
 
 ## How it works:
-The codes take care of the cookies and iterate through games and go within a particular game and scrape through the respective bookmakers' odds and score line and append them in CSV and text files.
+The codes take care of the cookies and iterate through games and go within a particular game and scrape through the respective bookmakers' odds and score line and append them in ```CSV``` and ```text``` files.
 It does that for all the games. The matches are stored in a text file alongside the score lines.
 
-### NB: The data can further be cleaned according to respective needs.
+**NB: The data can further be cleaned according to respective needs.**
