@@ -4,8 +4,8 @@
 
 ## Installations:
 Download the chrome driver on your laptop. From your terminal, go to the location of the chrome driver and run this code to grant it permission to run on your computer.
-'''spctl --add --label 'Approved' chromedriver
-Copy the path and paste it into '''executable-path''' on line 8. Make sure to replace my own path with yours.
+``` spctl --add --label 'Approved' chromedriver ```
+Copy the path and paste it into ``` executable-path ``` on line 8. Make sure to replace my own path with yours.
 
 ## Must do
 Create two folders with name games and odds in the root directory. These are where the results of the scraping are stored in csv and txt formats, other wise, you might need to change the file location in lines 21, 29, and 71 respectively for both scraper.py and scraper2.py.
